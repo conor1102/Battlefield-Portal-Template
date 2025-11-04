@@ -10,23 +10,9 @@ Here is a quick overview of each class:
 
 ## Game Controller: 
 The top level of the game mode, controls everything from Map, Players, Scoreboards, etc
-### Properties
-- CurrentMap: Map
-- PlayerController: PlayerController
-- ScoreBoard: Scoreboard
-
-### Functions
-- General Setup function for setting up the map, game mode, players, etc
-- InformPlayers - Used to send a UI notification to players
-- Update Game mode UI (UI at the top of screen including capture point states and game mode score)
 
 ## Map
 Contains Map specific items, such as capture points.
-## Properties
-CapturePoints: CapturePoint[]
-
-## Functions
-GetCapturePoint - Get a specific capture point based off an ID
 
 ## Scoreboard
 Contains all details for the scoreboard
