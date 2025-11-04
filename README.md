@@ -6,6 +6,11 @@ I was hoping to release all of this code once I had finished my project but have
 
 I have gutted all elements from my game mode and just left the general stuff. I did some quick testing, as much as I can do with bots, and everything still seems to be working.
 
+The moblib functions that I fixed are:
+- FilteredArray
+- WaitUntil
+- GetPlayersInTeam
+
 Here is a quick overview of each class:
 
 ## Game Controller: 
